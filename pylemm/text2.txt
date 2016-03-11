@@ -1,393 +1,397 @@
-I-I'm > None = NNP
-DAVE > None = NNP
-identified > identify = VBN
-missed > miss = VBD
-corrections > corrections = NNS
-IG > None = NNP
-indistinctly > indistinctly = RB
-Where's > None = NNP
-moaning > moan = VBG
-insurgents > insurgent = NNS
-calls > call = VBZ
-Bluemont > None = NNP
-asked > ask = VBD
-Mike's > None = NNP
-Dawkins > None = NNP
-Andrews > None = NNP
-I've-I've > None = NNP
-Iraqis > None = NNP
-isn't > None = NN
-it'd > None = NN
-died > die = VBD
-briefed > None = JJ
-months > month = NNS
-bribed > bribe = VBN
-Jody > None = NNP
-everyone's > None = JJ
-ducking > duck = NN
-hurts > hurt = VBZ
-broadcasts > broadcast = NNS
-buddies > buddy = NNS
-kills > kill = NNS
-kissed > kiss = VBD
-kissing > kiss = VBG
-done > do = VBN
-HQ > None = NNP
-hostiles > hostile = NNS
-interrogated > interrogate = VBD
-answered > None = JJ
-eval > None = JJ
-it'll > None = NN
-Afghanistan > None = NNP
-laws > laws = NNS
-addic > None = JJ
-escaped > escape = VBD
-least-favorite > None = JJ
-Hates > None = NNP
-Garma > None = NNP
-lied > lie = VBD
-nightgown > None = JJ
-whispers > whisper = NNS
-breaks > break = NNS
-fades > fade = NNS
-we'll > None = VBP
-Virgil > None = NNP
-locked > lock = VBD
-looked > None = JJ
-engines > engine = NNS
-who's > None = WDT
-endured > endure = VBD
-ends > end = NNS
-times > time = NNS
-phones > phone = NNS
-Macy's > None = NNP
-suggesting > suggest = VBG
-softly > softly = RB
-marketplace > None = VBN
-eight-year > None = JJ
-killed > kill = VBN
-gunships > None = NNS
-everybody's > None = RBR
-meant > None = NN
-wondered > wonder = VBD
-Eddie > None = NNP
-fainter > None = NN
-Megan > None = NNP
-members > member = NNS
-Al > None = NNP
-messages > message = NNS
-Korengal > None = NNP
-migraines > migraine = NNS
-agreed > agree = VBD
-Xander > None = NNP
-you'd > None = NN
-landmarks > None = VBZ
-Mr > None = NNP
-monitors > monitor = NNS
-ducks > duck = VBZ
-Nicholas > None = NNP
-movies > movie = NNS
-math > None = VBP
-Langley > None = NNP
-kids > kid = NNS
-honks > honk = NNS
-interrogations > interrogation = NNS
-I've > None = NNP
-drugs > drug = NNS
-huh > None = VBP
-Nazir's > None = NNP
-burgers > burger = NNS
-Qaeda > None = NNP
-boards > board = NNS
-gunfire > gunfire = NN
-Forces > None = NNS
-Guy's > None = NNP
-expected > expect = VBD
-details > detail = NNS
-questions > question = NNS
-bluntly > bluntly = RB
-days > days = NNS
-Hmm > None = NNP
-One's > None = NNP
-Zayadi > None = NNP
-Oorah > None = NNP
-opened > open = VBD
-opens > None = JJ
-drinks > drink = NNS
-operations > operations = NNS
-osdb > None = VBP
-clicking > click = VBG
-chuckles > chuckle = NNS
-dressed > dress = VBN
-wailing > wail = VBG
-doorbell > doorbell = NN
-donut > donut = NN
-Mathison > None = NNP
-Uh > None = NNP
-Ow > None = NNP
-doing > do = VBG
-Thanks > None = NNP
-padlocked > padlock = VBD
--year > None = JJ
-pairs > pair = NNS
-let's > None = VBP
-docs > doc = NN
-divorced > divorce = VBN
-Blackhawk > None = NNP
-hours > hours = NNS
-high-value > None = JJ
-HELEN > None = NNP
-Hasan > None = NNP
-groans > groan = NNS
-greeted > greet = VBD
-ears > ear = NNS
-grunts > grunt = NNS
-easier > easy = JJR
-gon > None = NN
-na > na = TO
-Germany > None = NNP
-ESTES > None = NNP
-Chris > None = NNP
-Frankly > None = NNP
-hides > hide = VBZ
-birds > bird = NNS
-plying > ply = VBG
-ed > ed = NN
-caused > cause = VBD
-Greeks > None = NNP
-We're > None = NNP
-powering > power = VBG
-gets > get = VBZ
-President's > None = NNP
-presumed > presume = VBD
-got > get = VBD
-ta > None = JJ
-Good-bye > None = NNP
-mic > None = NNP
-elderman > None = NN
-produced > produce = VBD
-she's > None = JJ
-miles > mile = NNS
-betrayed > betray = VBN
-dings > ding = NNS
-knows > know = VBZ
-bones > bone = NNS
-How's > None = NNP
-puking > puke = VBG
-Dimming > None = VBG
-punishing > punish = VBG
-prayers > prayer = NNS
-quacking > quack = VBG
-MIA > None = NNP
-Mrs > None = NNP
-continues > continue = VBZ
-Ramadi > None = NNP
-Resync > None = NNP
-Geez > None = NNP
-Ibrahim > None = NNP
-reacted > react = VBD
-Max > None = NNP
-laughs > laugh = VBZ
-Pittman's > None = NNP
-happened > happen = VBD
-recruited > recruit = VBN
-guys > guy = NNS
-refusing > refuse = VBG
-Amman > None = NNP
-remarried > remarry = VBD
-repeats > repeat = NNS
-gasping > gasp = VBG
-rings > ring = NNS
-Brody's > None = NNP
-headphones > headphone = NNS
-resulted > result = VBD
-deltas > delta = NNS
-served > serve = VBD
-years > years = NNS
-sharply > sharply = RB
-risking > risk = VBG
-decisions > decision = NNS
-rounds > round = VBZ
-routes > route = NNS
-goes > go = VBZ
-rules > rule = NNS
-debriefing > debrief = VBG
-debriefed > None = NN
-saved > save = VBD
-that's > None = NN
-says > say = VBZ
-analysts > analyst = NNS
-beeps > beep = NNS
-scheduled > schedule = JJ
-scoffs > scoff = NNS
-GMT > None = NNP
-he'll > None = NN
-David's > None = NNP
-Shh > None = NNP
-sending > send = VBG
-separated > separate = VBD
-having > have = VBG
-louder > None = NN
-shouldn't > None = NN
-shaking > shake = VBG
-anti-psychotic > None = JJ
-anymore > anymore = RB
-panting > pant = VBG
-shorter > short = JJR
-shouts > shout = NNS
-minutes > minutes = NNS
-shucked > shuck = VBD
-shuts > None = JJ
-shutters > shutter = NNS
-Marines > None = NNPS
-looking > look = VBG
-Damascus > None = NNP
-sobs > sob = NN
-Somebody's > None = NNP
-crypto > None = NN
-haven't > None = NN
-approaching > approach = VBG
-wanted > want = VBD
-smiling > smile = VBG
-smuggled > smuggle = VBN
-sniffles > sniffle = NNS
-sooner > sooner = RBR
-sobbing > sob = VBG
-grunting > grunt = VBG
-soldier's > None = JJ
-soldiers > soldier = NNS
-someone's > None = VBP
-does > do = VBZ
-Dana > None = NNP
-sounds > sound = VBZ
-can't > None = JJ
-speaks > None = NNS
-crackles > crackle = NNS
-speeches > speech = NNS
-finds > find = NNS
-arriving > arrive = VBG
-Jessica > None = NNP
-squawking > squawk = VBG
-squealing > squeal = VBG
-couldn't > None = NN
-started > start = VBD
-States > None = NNPS
-I'll > None = NNP
-coordinating > coordinate = VBG
-exhales > None = NNS
-steps > step = NNS
-didn't > None = RB
-stopped > stop = VBD
-stops > stop = NNS
-chirping > chirp = VBG
-conversing > converse = VBG
-conversations > conversation = NNS
-Stuart > None = NNP
-cheering > cheer = VBG
-STRICKLAND > None = NNP
-sighs > sigh = NNS
-contacts > contact = NNS
-subtitles > subtitle = VBZ
-David > None = NNP
-Baghdad > None = NNP
-eyes > eye = NNS
-intel > None = VBP
-things > things = NNS
-survived > survive = VBD
-suspects > suspect = NNS
-Saul > None = NNP
-Harder > None = NNP
-confirms > None = NNS
-conducted > conduct = VBD
-principals > principal = NNS
-tailing > tail = VBG
-Nazir > None = NNP
-fighters > fighter = NNS
-assets > assets = NNS
-targets > target = NNS
-Abu > None = NNP
-surprised > surprise = VBD
-Jim > None = NNP
-buzzes > buzz = VBZ
-CIA > None = NNP
-JSOC > None = NNP
-tf > None = NN
-guards > guard = NNS
-comes > come = VBZ
-getting > get = VBG
-giving > give = VBG
-collecting > collect = VBG
-codes > code = NNS
-Touchdown > None = NNP
-tours > tour = NNS
-happens > happen = VBZ
-Farsi > None = NNP
-eyebrows > None = VBZ
-Mom > None = NNP
-hang-ups > None = JJ
-there's > None = NN
-He's > None = NNP
-turnout > turnout = IN
-Turns > None = NNP
-UH- > None = NNP
-um > None = JJ
-Clozapine's > None = NNP
-babysitting > babysitting = NN
-Clozapine > None = NNP
-♪ > None = NNP
-upbeat > upbeat = NN
-gasps > gasp = NN
-users > user = NNS
-they're > None = VBP
-asshole > None = JJ
-Aw > None = NNP
-handler > handler = NN
-gives > give = VBZ
-vomiting > vomit = VBG
-CARRIE > None = NNP
-clears > clear = VBZ
-Washington > None = NNP
-Washingtonians > None = NNPS
-wasn't > None = VBP
-watching > watch = VBG
-Feldman's > None = NNP
-clearer > None = NN
-waving > wave = VBG
-we've > None = JJ
-don't > None = NN
-It's > None = NNP
-wears > wear = VBZ
-weeds > None = JJ
-weeks > week = NNS
-wants > want = VBZ
-welcoming > welcome = VBG
-What-what > None = NNP
-Where's-Where's > None = NNP
-tires > tire = NNS
-whines > whine = NNS
-whining > whine = VBG
-whispered > whisper = VBD
-guts > gut = NNS
-who'll > None = RB
-prompted > prompt = VBD
-winces > wince = NNS
-audio > None = JJ
-wishes > wish = NNS
-Brody > None = NNP
-witnessed > witness = VBD
-Iraq > None = NNP
-cleaned > clean = VBD
-words > word = NNS
-attacks > attack = NNS
-wouldn't > None = VBP
-father's > None = JJ
-clarifications > clarification = NNS
-shit > shit = VBP
-Xan > None = JJ
-civilians > civilian = NNS
-yelling > yell = VBG
-www > www = SYM
-- > None = :
-You've > None = NN
-What's > None = NNP
-zooming > None = NN
+all = 393
+tag_count = 181
+not_tag_count = 24
+not_changed = 188
+I-I'm > I-I'm > not changed
+DAVE > DAVE > not changed
+identify > identified > VBN
+miss > missed > VBD
+corrections > corrections > not changed
+IG > IG > not changed
+indistinctly > indistinctly > not changed
+Where's > Where's > not changed
+moan > moaning > VBG
+insurgent > insurgents > NNS
+call > calls > VBZ
+Bluemont > Bluemont > not changed
+ask > asked > VBD
+Mike's > Mike's > not changed
+Dawkins > Dawkins > not changed
+Andrews > Andrews > not changed
+I've-I've > I've-I've > not changed
+Iraqis > Iraqis > not changed
+isn't > isn't > not changed
+it'd > it'd > not changed
+die > died > VBD
+brief > briefed > not tag
+month > months > NNS
+bribe > bribed > VBN
+Jody > Jody > not changed
+everyone's > everyone's > not changed
+ducking > ducking > not changed
+hurt > hurts > VBZ
+broadcast > broadcasts > NNS
+buddy > buddies > NNS
+kill > kills > NNS
+kiss > kissed > VBD
+kiss > kissing > VBG
+do > done > VBN
+HQ > HQ > not changed
+hostile > hostiles > NNS
+interrogate > interrogated > VBD
+answer > answered > not tag
+eval > eval > not changed
+it'll > it'll > not changed
+Afghanistan > Afghanistan > not changed
+laws > laws > not changed
+addic > addic > not changed
+escape > escaped > VBD
+least-favorite > least-favorite > not changed
+Hates > Hates > not changed
+Garma > Garma > not changed
+lie > lied > VBD
+nightgown > nightgown > not tag
+whisper > whispers > NNS
+break > breaks > NNS
+fade > fades > NNS
+we'll > we'll > not changed
+Virgil > Virgil > not changed
+lock > locked > VBD
+look > looked > not tag
+engine > engines > NNS
+who's > who's > not changed
+endure > endured > VBD
+end > ends > NNS
+times > times > not changed
+phone > phones > NNS
+Macy's > Macy's > not changed
+suggest > suggesting > VBG
+softly > softly > not changed
+marketplace > marketplace > not tag
+eight-year > eight-year > not changed
+kill > killed > VBN
+gunships > gunships > not changed
+everybody's > everybody's > not changed
+mean > meant > not tag
+wonder > wondered > VBD
+Eddie > Eddie > not changed
+faint > fainter > not tag
+Megan > Megan > not changed
+member > members > NNS
+Al > Al > not changed
+message > messages > NNS
+Korengal > Korengal > not changed
+migraine > migraines > NNS
+agree > agreed > VBD
+Xander > Xander > not changed
+you'd > you'd > not changed
+landmark > landmarks > not tag
+Mr > Mr > not changed
+monitor > monitors > NNS
+duck > ducks > VBZ
+Nicholas > Nicholas > not changed
+movie > movies > NNS
+math > math > not tag
+Langley > Langley > not changed
+kid > kids > NNS
+honk > honks > NNS
+interrogation > interrogations > NNS
+I've > I've > not changed
+drug > drugs > NNS
+huh > huh > not changed
+Nazir's > Nazir's > not changed
+burger > burgers > NNS
+Qaeda > Qaeda > not changed
+boards > boards > not changed
+gunfire > gunfire > not changed
+Forces > Forces > not changed
+Guy's > Guy's > not changed
+expect > expected > VBD
+details > details > not changed
+question > questions > NNS
+bluntly > bluntly > not changed
+days > days > not changed
+Hmm > Hmm > not changed
+One's > One's > not changed
+Zayadi > Zayadi > not changed
+Oorah > Oorah > not changed
+open > opened > VBD
+open > opens > not tag
+drink > drinks > NNS
+operations > operations > not changed
+osdb > osdb > not changed
+click > clicking > VBG
+chuckle > chuckles > NNS
+dress > dressed > VBN
+wail > wailing > VBG
+doorbell > doorbell > not changed
+donut > donut > not changed
+Mathison > Mathison > not changed
+Uh > Uh > not changed
+Ow > Ow > not changed
+do > doing > VBG
+Thanks > Thanks > not changed
+padlock > padlocked > VBD
+-year > -year > not changed
+pair > pairs > NNS
+let's > let's > not changed
+doc > docs > NN
+divorce > divorced > VBN
+Blackhawk > Blackhawk > not changed
+hours > hours > not changed
+high-value > high-value > not changed
+HELEN > HELEN > not changed
+Hasan > Hasan > not changed
+groan > groans > NNS
+greet > greeted > VBD
+ear > ears > NNS
+grunt > grunts > NNS
+easy > easier > JJR
+gon > gon > not changed
+na > na > not changed
+Germany > Germany > not changed
+ESTES > ESTES > not changed
+Chris > Chris > not changed
+Frankly > Frankly > not changed
+hide > hides > VBZ
+bird > birds > NNS
+ply > plying > VBG
+ed > ed > not changed
+cause > caused > VBD
+Greeks > Greeks > not changed
+We're > We're > not changed
+power > powering > VBG
+get > gets > VBZ
+President's > President's > not changed
+presume > presumed > VBD
+get > got > VBD
+ta > ta > not tag
+Good-bye > Good-bye > not changed
+mic > mic > not changed
+elderman > elderman > not changed
+produce > produced > VBD
+she's > she's > not changed
+mile > miles > NNS
+betray > betrayed > VBN
+ding > dings > NNS
+know > knows > VBZ
+bones > bones > not changed
+How's > How's > not changed
+puke > puking > VBG
+Dimming > Dimming > not changed
+punish > punishing > VBG
+prayer > prayers > NNS
+quack > quacking > VBG
+MIA > MIA > not changed
+Mrs > Mrs > not changed
+continue > continues > VBZ
+Ramadi > Ramadi > not changed
+Resync > Resync > not changed
+Geez > Geez > not changed
+Ibrahim > Ibrahim > not changed
+react > reacted > VBD
+Max > Max > not changed
+laugh > laughs > VBZ
+Pittman's > Pittman's > not changed
+happen > happened > VBD
+recruit > recruited > VBN
+guy > guys > NNS
+refuse > refusing > VBG
+Amman > Amman > not changed
+remarry > remarried > VBD
+repeat > repeats > NNS
+gasp > gasping > VBG
+rings > rings > not changed
+Brody's > Brody's > not changed
+headphone > headphones > NNS
+result > resulted > VBD
+delta > deltas > NNS
+serve > served > VBD
+years > years > not changed
+sharply > sharply > not changed
+risk > risking > VBG
+decision > decisions > NNS
+round > rounds > VBZ
+route > routes > NNS
+go > goes > VBZ
+rule > rules > NNS
+debrief > debriefing > VBG
+debrief > debriefed > not tag
+save > saved > VBD
+that's > that's > not changed
+say > says > VBZ
+analyst > analysts > NNS
+beep > beeps > NNS
+scheduled > scheduled > not changed
+scoff > scoffs > NNS
+GMT > GMT > not changed
+he'll > he'll > not changed
+David's > David's > not changed
+Shh > Shh > not changed
+send > sending > VBG
+separate > separated > VBD
+have > having > VBG
+loud > louder > not tag
+shouldn't > shouldn't > not changed
+shake > shaking > VBG
+anti-psychotic > anti-psychotic > not changed
+anymore > anymore > not changed
+pant > panting > VBG
+short > shorter > JJR
+shout > shouts > NNS
+minutes > minutes > not changed
+shuck > shucked > VBD
+shut > shuts > not tag
+shutter > shutters > NNS
+Marines > Marines > not changed
+look > looking > VBG
+Damascus > Damascus > not changed
+sob > sobs > NN
+Somebody's > Somebody's > not changed
+crypto > crypto > not changed
+haven't > haven't > not changed
+approach > approaching > VBG
+want > wanted > VBD
+smile > smiling > VBG
+smuggle > smuggled > VBN
+sniffle > sniffles > NNS
+sooner > sooner > not changed
+sob > sobbing > VBG
+grunt > grunting > VBG
+soldier's > soldier's > not changed
+soldier > soldiers > NNS
+someone's > someone's > not changed
+do > does > VBZ
+Dana > Dana > not changed
+sound > sounds > VBZ
+can't > can't > not changed
+speak > speaks > not tag
+crackle > crackles > NNS
+speech > speeches > NNS
+find > finds > NNS
+arrive > arriving > VBG
+Jessica > Jessica > not changed
+squawk > squawking > VBG
+squeal > squealing > VBG
+couldn't > couldn't > not changed
+start > started > VBD
+States > States > not changed
+I'll > I'll > not changed
+coordinate > coordinating > VBG
+exhale > exhales > not tag
+steps > steps > not changed
+didn't > didn't > not changed
+stop > stopped > VBD
+stops > stops > not changed
+chirp > chirping > VBG
+converse > conversing > VBG
+conversation > conversations > NNS
+Stuart > Stuart > not changed
+cheer > cheering > VBG
+STRICKLAND > STRICKLAND > not changed
+sigh > sighs > NNS
+contact > contacts > NNS
+subtitle > subtitles > VBZ
+David > David > not changed
+Baghdad > Baghdad > not changed
+eyes > eyes > not changed
+intel > intel > not changed
+things > things > not changed
+survive > survived > VBD
+suspect > suspects > NNS
+Saul > Saul > not changed
+Harder > Harder > not changed
+confirm > confirms > not tag
+conduct > conducted > VBD
+principal > principals > NNS
+tail > tailing > VBG
+Nazir > Nazir > not changed
+fighter > fighters > NNS
+assets > assets > not changed
+target > targets > NNS
+Abu > Abu > not changed
+surprise > surprised > VBD
+Jim > Jim > not changed
+buzz > buzzes > VBZ
+CIA > CIA > not changed
+JSOC > JSOC > not changed
+tf > tf > not changed
+guard > guards > NNS
+come > comes > VBZ
+get > getting > VBG
+give > giving > VBG
+collect > collecting > VBG
+code > codes > NNS
+Touchdown > Touchdown > not changed
+tours > tours > not changed
+happen > happens > VBZ
+Farsi > Farsi > not changed
+eyebrow > eyebrows > not tag
+Mom > Mom > not changed
+hang-up > hang-ups > not tag
+there's > there's > not changed
+He's > He's > not changed
+turnout > turnout > not changed
+Turns > Turns > not changed
+UH- > UH- > not changed
+um > um > not changed
+Clozapine's > Clozapine's > not changed
+babysitting > babysitting > not changed
+Clozapine > Clozapine > not changed
+♪ > ♪ > not changed
+upbeat > upbeat > not changed
+gasp > gasps > NN
+user > users > NNS
+they're > they're > not changed
+asshole > asshole > not tag
+Aw > Aw > not changed
+handler > handler > not changed
+give > gives > VBZ
+vomit > vomiting > VBG
+CARRIE > CARRIE > not changed
+clear > clears > VBZ
+Washington > Washington > not changed
+Washingtonians > Washingtonians > not changed
+wasn't > wasn't > not changed
+watch > watching > VBG
+Feldman's > Feldman's > not changed
+clear > clearer > not tag
+wave > waving > VBG
+we've > we've > not changed
+don't > don't > not changed
+It's > It's > not changed
+wear > wears > VBZ
+weeds > weeds > not tag
+week > weeks > NNS
+want > wants > VBZ
+welcome > welcoming > VBG
+What-what > What-what > not changed
+Where's-Where's > Where's-Where's > not changed
+tire > tires > NNS
+whine > whines > NNS
+whine > whining > VBG
+whisper > whispered > VBD
+guts > guts > not changed
+who'll > who'll > not changed
+prompt > prompted > VBD
+wince > winces > NNS
+audio > audio > not tag
+wish > wishes > NNS
+Brody > Brody > not changed
+witness > witnessed > VBD
+Iraq > Iraq > not changed
+clean > cleaned > VBD
+words > words > not changed
+attack > attacks > NNS
+wouldn't > wouldn't > not changed
+father's > father's > not changed
+clarification > clarifications > NNS
+shit > shit > not changed
+Xan > Xan > not changed
+civilian > civilians > NNS
+yell > yelling > VBG
+www > www > not changed
+- > - > not changed
+You've > You've > not changed
+What's > What's > not changed
+zoom > zooming > not tag

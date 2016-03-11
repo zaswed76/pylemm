@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
+
 from __future__ import unicode_literals
 
 from nltk.corpus.reader.wordnet import NOUN
@@ -18,12 +19,24 @@ class WordNetLemmatizer(object):
 
     def lemmatize(self, word, pos=NOUN):
         lemmas = wordnet._morphy(word, pos)
-        print(lemmas)
-        return min(lemmas, key=len) if lemmas else word
+
+        return min(lemmas, key=len) if lemmas else None
 
     def __repr__(self):
         return '<WordNetLemmatizer>'
 
 
 wnl = WordNetLemmatizer()
-print(wnl.lemmatize('dogs'))
+
+lst = ['a', 'v', 's', 'r', 'n']
+
+def fl(word):
+    for i in lst:
+        r = wnl.lemmatize(word, i)
+        if r:
+            return r
+    else:
+        return None
+
+print(fl('boards'))
+
