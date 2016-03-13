@@ -27,12 +27,13 @@ class WordNetLemmatizer(object):
         self.stemmer = LancasterStemmer()
 
     def lemmatize(self, word, pos):
-        lemmas = wordnet._morphy(word, pos)
+        lemmas = wordnet._morphy(word.decode('utf-8'), pos)
         return min(lemmas, key=len) if lemmas else None
 
     def normalize_parts_speech(self, word):
         for pos in self._pos_list:
             res = self.lemmatize(word, pos)
+            if res == word: continue
             if res:
                 return res
         else: return None
@@ -42,21 +43,21 @@ class WordNetLemmatizer(object):
 
     def normalize_words(self,  words_list):
         res = []
-        _line = dict.fromkeys(['source', 'lemm', 'stemm', 'tag'])
+        _line = dict.fromkeys(['source', 'lemm', 'stemm', 'tag'], '')
 
         for word in words_list:
             line = _line.copy()
-            line['source'] = word
+            line['source'] = word.decode('utf-8')
             nw = self.normalize_parts_speech(word)
             if nw:
-                line['lemm'] = nw
+                line['lemm'] = nw.decode('utf-8')
                 line['tag'] = 'lemm'
                 res.append(line)
                 continue
             else:
                 nw = self.stemmer.stem(word)
                 if nw != word:
-                    line['stemm'] = nw
+                    line['stemm'] = nw.decode('utf-8')
                     line['tag'] = 'stemm'
                     res.append(line)
                     continue
@@ -80,12 +81,13 @@ def main():
         line = '{};{};{};{}\n'.format(d['source'], d['lemm'], d['stemm'], d['tag'])
         res_list.append(line)
     res_str = ''.join(res_list)
-    write_file_text('text3.csv', res_str)
+    write_file_text('aaa.csv', res_str)
 
 
 if __name__ == '__main__':
     main()
-
+    # lmt = WordNetLemmatizer()
+    # print lmt.lemmatize('sending', 'v')
 
 
 

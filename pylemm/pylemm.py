@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# import nltk
-# nltk.download()
+import nltk
+nltk.download()
 
 from nltk import pos_tag
 from nltk.tokenize import word_tokenize
