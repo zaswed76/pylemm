@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c38a21ba-23bc-4666-a80b-94b4648eda76" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pylemm/etc/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pylemm/etc/conf.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pylemm/exemples/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lemm.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zdftg.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pylemm/aaa.csv" afterPath="$PROJECT_DIR$/pylemm/exemples/aaa.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pylemm/output.xlsx" afterPath="$PROJECT_DIR$/pylemm/exemples/output.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pylemm/output3.xlsx" afterPath="$PROJECT_DIR$/pylemm/exemples/output3.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pylemm/pylemm.py" afterPath="$PROJECT_DIR$/pylemm/exemples/pylemm.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pylemm/pylemm2.py" afterPath="$PROJECT_DIR$/pylemm/exemples/pylemm2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pylemm/source.txt" afterPath="$PROJECT_DIR$/pylemm/exemples/source.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pylemm/test.csv" afterPath="$PROJECT_DIR$/pylemm/exemples/test.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pylemm/text2.txt" afterPath="$PROJECT_DIR$/pylemm/exemples/text2.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pylemm/text3.csv" afterPath="$PROJECT_DIR$/pylemm/exemples/text3.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pylemm/text3.xls" afterPath="$PROJECT_DIR$/pylemm/exemples/text3.xls" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pylemm/text3.xlsx" afterPath="$PROJECT_DIR$/pylemm/exemples/text3.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pylemm/www.py" afterPath="$PROJECT_DIR$/pylemm/exemples/www.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rst" afterPath="$PROJECT_DIR$/README.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pylemm/lemm3.py" afterPath="$PROJECT_DIR$/pylemm/lemm3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
     </list>
     <ignored path="pylemm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,75 +50,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pylemm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pylemm/pylemm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lemm3.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lemm3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pylemm/lemm3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="88" column="10" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.84317034">
+              <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
               <folding>
-                <element signature="e#49#88#0" expanded="true" />
-                <element signature="e#308#374#0" expanded="true" />
-                <element signature="e#414#463#0" expanded="true" />
-                <element signature="e#587#620#0" expanded="true" />
-                <element signature="e#666#773#0" expanded="true" />
-                <element signature="e#827#1007#0" expanded="true" />
-                <element signature="e#1044#1074#0" expanded="true" />
-                <element signature="e#1128#1914#0" expanded="true" />
-                <element signature="e#1949#1977#0" expanded="true" />
-                <element signature="e#1996#2345#0" expanded="true" />
+                <element signature="e#48#87#0" expanded="true" />
+                <element signature="e#330#546#0" expanded="true" />
+                <element signature="e#571#629#0" expanded="true" />
+                <element signature="e#669#734#0" expanded="true" />
+                <element signature="e#775#824#0" expanded="true" />
+                <element signature="e#950#983#0" expanded="true" />
+                <element signature="e#1029#1136#0" expanded="true" />
+                <element signature="e#1190#1382#0" expanded="true" />
+                <element signature="e#1419#1449#0" expanded="true" />
+                <element signature="e#1502#2286#0" expanded="true" />
+                <element signature="e#2320#2348#0" expanded="true" />
+                <element signature="e#2367#2754#0" expanded="true" />
+                <element signature="e#2776#2790#0" expanded="true" />
+                <element signature="e#2810#2960#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.rst">
+      <file leaf-file-name="conf.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pylemm/etc/conf.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10169491">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aaa.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pylemm/aaa.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="source.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pylemm/source.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zdftg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zdftg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
+            <state vertical-scroll-proportion="-1.3793104">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding>
-                <element signature="e#48#58#0" expanded="true" />
-                <element signature="e#158#376#0" expanded="true" />
+                <marker date="1457899203000" expanded="true" signature="0:16" placeholder="{&quot;sep&quot;: &quot;;&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -109,48 +91,10 @@
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pylemm/test.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pylemm2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pylemm/pylemm2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-              <folding>
-                <element signature="e#48#72#0" expanded="true" />
-                <element signature="e#175#225#0" expanded="true" />
-                <element signature="e#264#312#0" expanded="true" />
-                <element signature="e#410#414#0" expanded="true" />
-                <element signature="e#456#492#0" expanded="true" />
-                <element signature="e#539#621#0" expanded="true" />
-                <element signature="e#664#1582#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text2.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pylemm/text2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -160,8 +104,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Widget" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -180,10 +124,12 @@
         <option value="$PROJECT_DIR$/testqt.py" />
         <option value="$PROJECT_DIR$/zdftg.py" />
         <option value="$PROJECT_DIR$/lemm.sh" />
-        <option value="$PROJECT_DIR$/pylemm/pylemm.py" />
         <option value="$PROJECT_DIR$/pylemm/source.txt" />
-        <option value="$PROJECT_DIR$/pylemm/lemm3.py" />
         <option value="$PROJECT_DIR$/README.rst" />
+        <option value="$PROJECT_DIR$/pylemm/pylemm.py" />
+        <option value="$PROJECT_DIR$/pylemm/etc/conf.json" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/pylemm/lemm3.py" />
       </list>
     </option>
   </component>
@@ -223,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -255,10 +202,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pylemm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pylemm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pylemm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="NBKnowledgePane" />
     </panes>
   </component>
@@ -270,6 +234,9 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pylemm/exemples" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -288,7 +255,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pylemm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylemm/pylemm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylemm/exemples/pylemm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -304,7 +271,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pylemm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylemm/www.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylemm/exemples/www.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -326,7 +293,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pylemm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylemm/pylemm2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylemm/exemples/pylemm2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -558,7 +525,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457896892282</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="222">
+      <created>1457896993736</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1457896993736</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -574,20 +547,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="22" width="1865" height="1058" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18964578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15203427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1509636" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -642,13 +615,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lemm.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -659,7 +625,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/test.csv">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/test.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
@@ -667,23 +633,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/pylemm2.py">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/pylemm2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
-            <element signature="e#48#72#0" expanded="true" />
-            <element signature="e#175#225#0" expanded="true" />
-            <element signature="e#264#312#0" expanded="true" />
-            <element signature="e#410#414#0" expanded="true" />
-            <element signature="e#456#492#0" expanded="true" />
-            <element signature="e#539#621#0" expanded="true" />
-            <element signature="e#664#1582#0" expanded="true" />
+            <element signature="e#48#72#0" expanded="false" />
+            <element signature="e#175#225#0" expanded="false" />
+            <element signature="e#264#312#0" expanded="false" />
+            <element signature="e#410#414#0" expanded="false" />
+            <element signature="e#456#492#0" expanded="false" />
+            <element signature="e#539#621#0" expanded="false" />
+            <element signature="e#664#1582#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/text2.txt">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/text2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="5" />
@@ -691,7 +657,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/text2.txt">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/text2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="5" />
@@ -704,21 +670,25 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="16" />
           <folding>
-            <element signature="e#49#88#0" expanded="true" />
-            <element signature="e#308#374#0" expanded="true" />
-            <element signature="e#414#463#0" expanded="true" />
-            <element signature="e#587#620#0" expanded="true" />
-            <element signature="e#666#773#0" expanded="true" />
-            <element signature="e#827#1007#0" expanded="true" />
-            <element signature="e#1044#1074#0" expanded="true" />
-            <element signature="e#1128#1914#0" expanded="true" />
-            <element signature="e#1949#1977#0" expanded="true" />
-            <element signature="e#1996#2345#0" expanded="true" />
+            <element signature="e#48#87#0" expanded="true" />
+            <element signature="e#330#546#0" expanded="true" />
+            <element signature="e#571#629#0" expanded="true" />
+            <element signature="e#669#734#0" expanded="true" />
+            <element signature="e#775#824#0" expanded="true" />
+            <element signature="e#950#983#0" expanded="true" />
+            <element signature="e#1029#1136#0" expanded="true" />
+            <element signature="e#1190#1382#0" expanded="true" />
+            <element signature="e#1419#1449#0" expanded="true" />
+            <element signature="e#1502#2286#0" expanded="true" />
+            <element signature="e#2320#2348#0" expanded="true" />
+            <element signature="e#2367#2754#0" expanded="true" />
+            <element signature="e#2776#2790#0" expanded="true" />
+            <element signature="e#2810#2960#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/test.csv">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/test.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
@@ -726,23 +696,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/pylemm2.py">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/pylemm2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="e#48#72#0" expanded="true" />
-            <element signature="e#175#225#0" expanded="true" />
-            <element signature="e#264#312#0" expanded="true" />
-            <element signature="e#410#414#0" expanded="true" />
-            <element signature="e#456#492#0" expanded="true" />
-            <element signature="e#539#621#0" expanded="true" />
-            <element signature="e#664#1582#0" expanded="true" />
+            <element signature="e#48#72#0" expanded="false" />
+            <element signature="e#175#225#0" expanded="false" />
+            <element signature="e#264#312#0" expanded="false" />
+            <element signature="e#410#414#0" expanded="false" />
+            <element signature="e#456#492#0" expanded="false" />
+            <element signature="e#539#621#0" expanded="false" />
+            <element signature="e#664#1582#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/text2.txt">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/text2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="5" />
@@ -750,21 +720,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/source.txt">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/source.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="6" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/www.py">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/www.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/pylemm.py">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/pylemm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="21" />
@@ -777,21 +747,25 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="16" />
           <folding>
-            <element signature="e#49#88#0" expanded="true" />
-            <element signature="e#308#374#0" expanded="true" />
-            <element signature="e#414#463#0" expanded="true" />
-            <element signature="e#587#620#0" expanded="true" />
-            <element signature="e#666#773#0" expanded="true" />
-            <element signature="e#827#1007#0" expanded="true" />
-            <element signature="e#1044#1074#0" expanded="true" />
-            <element signature="e#1128#1914#0" expanded="true" />
-            <element signature="e#1949#1977#0" expanded="true" />
-            <element signature="e#1996#2345#0" expanded="true" />
+            <element signature="e#48#87#0" expanded="true" />
+            <element signature="e#330#546#0" expanded="true" />
+            <element signature="e#571#629#0" expanded="true" />
+            <element signature="e#669#734#0" expanded="true" />
+            <element signature="e#775#824#0" expanded="true" />
+            <element signature="e#950#983#0" expanded="true" />
+            <element signature="e#1029#1136#0" expanded="true" />
+            <element signature="e#1190#1382#0" expanded="true" />
+            <element signature="e#1419#1449#0" expanded="true" />
+            <element signature="e#1502#2286#0" expanded="true" />
+            <element signature="e#2320#2348#0" expanded="true" />
+            <element signature="e#2367#2754#0" expanded="true" />
+            <element signature="e#2776#2790#0" expanded="true" />
+            <element signature="e#2810#2960#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/test.csv">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/test.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -799,23 +773,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/pylemm2.py">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/pylemm2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="e#48#72#0" expanded="true" />
-            <element signature="e#175#225#0" expanded="true" />
-            <element signature="e#264#312#0" expanded="true" />
-            <element signature="e#410#414#0" expanded="true" />
-            <element signature="e#456#492#0" expanded="true" />
-            <element signature="e#539#621#0" expanded="true" />
-            <element signature="e#664#1582#0" expanded="true" />
+            <element signature="e#48#72#0" expanded="false" />
+            <element signature="e#175#225#0" expanded="false" />
+            <element signature="e#264#312#0" expanded="false" />
+            <element signature="e#410#414#0" expanded="false" />
+            <element signature="e#456#492#0" expanded="false" />
+            <element signature="e#539#621#0" expanded="false" />
+            <element signature="e#664#1582#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/text2.txt">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/text2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="5" />
@@ -823,14 +797,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/source.txt">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/source.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="6" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/www.py">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/www.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="28" selection-end-column="28" />
@@ -844,7 +818,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/pylemm.py">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/pylemm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -857,37 +831,41 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
-            <element signature="e#49#88#0" expanded="true" />
-            <element signature="e#308#374#0" expanded="true" />
-            <element signature="e#414#463#0" expanded="true" />
-            <element signature="e#587#620#0" expanded="true" />
-            <element signature="e#666#773#0" expanded="true" />
-            <element signature="e#827#1007#0" expanded="true" />
-            <element signature="e#1044#1074#0" expanded="true" />
-            <element signature="e#1128#1914#0" expanded="true" />
-            <element signature="e#1949#1977#0" expanded="true" />
-            <element signature="e#1996#2345#0" expanded="true" />
+            <element signature="e#48#87#0" expanded="true" />
+            <element signature="e#330#546#0" expanded="true" />
+            <element signature="e#571#629#0" expanded="true" />
+            <element signature="e#669#734#0" expanded="true" />
+            <element signature="e#775#824#0" expanded="true" />
+            <element signature="e#950#983#0" expanded="true" />
+            <element signature="e#1029#1136#0" expanded="true" />
+            <element signature="e#1190#1382#0" expanded="true" />
+            <element signature="e#1419#1449#0" expanded="true" />
+            <element signature="e#1502#2286#0" expanded="true" />
+            <element signature="e#2320#2348#0" expanded="true" />
+            <element signature="e#2367#2754#0" expanded="true" />
+            <element signature="e#2776#2790#0" expanded="true" />
+            <element signature="e#2810#2960#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/pylemm2.py">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/pylemm2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
           <folding>
-            <element signature="e#48#72#0" expanded="true" />
-            <element signature="e#175#225#0" expanded="true" />
-            <element signature="e#264#312#0" expanded="true" />
-            <element signature="e#410#414#0" expanded="true" />
-            <element signature="e#456#492#0" expanded="true" />
-            <element signature="e#539#621#0" expanded="true" />
-            <element signature="e#664#1582#0" expanded="true" />
+            <element signature="e#48#72#0" expanded="false" />
+            <element signature="e#175#225#0" expanded="false" />
+            <element signature="e#264#312#0" expanded="false" />
+            <element signature="e#410#414#0" expanded="false" />
+            <element signature="e#456#492#0" expanded="false" />
+            <element signature="e#539#621#0" expanded="false" />
+            <element signature="e#664#1582#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/text2.txt">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/text2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="5" />
@@ -895,14 +873,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/source.txt">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/source.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="6" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/www.py">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/www.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="33" selection-end-column="28" />
@@ -916,7 +894,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/pylemm.py">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/pylemm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -924,7 +902,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/text2.txt">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/text2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
@@ -932,14 +910,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/source.txt">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/source.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="6" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/www.py">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/www.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="33" selection-end-column="28" />
@@ -953,7 +931,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/pylemm.py">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/pylemm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -961,7 +939,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/text2.txt">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/text2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
@@ -969,14 +947,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/source.txt">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/source.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="6" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/www.py">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/www.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="33" selection-end-column="28" />
@@ -997,62 +975,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/www.py">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/www.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lemm.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zdftg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
-          <folding>
-            <element signature="e#48#58#0" expanded="true" />
-            <element signature="e#158#376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/pylemm2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="e#48#72#0" expanded="true" />
-            <element signature="e#175#225#0" expanded="true" />
-            <element signature="e#264#312#0" expanded="true" />
-            <element signature="e#410#414#0" expanded="true" />
-            <element signature="e#456#492#0" expanded="true" />
-            <element signature="e#539#621#0" expanded="true" />
-            <element signature="e#664#1582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/text2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,31 +992,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/test.csv">
+    <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/source.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/pylemm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/aaa.csv">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/aaa.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
@@ -1098,30 +1008,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylemm/lemm3.py">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/pylemm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="10" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/pylemm2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
-            <element signature="e#49#88#0" expanded="true" />
-            <element signature="e#308#374#0" expanded="true" />
-            <element signature="e#414#463#0" expanded="true" />
-            <element signature="e#587#620#0" expanded="true" />
-            <element signature="e#666#773#0" expanded="true" />
-            <element signature="e#827#1007#0" expanded="true" />
-            <element signature="e#1044#1074#0" expanded="true" />
-            <element signature="e#1128#1914#0" expanded="true" />
-            <element signature="e#1949#1977#0" expanded="true" />
-            <element signature="e#1996#2345#0" expanded="true" />
+            <element signature="e#48#72#0" expanded="false" />
+            <element signature="e#175#225#0" expanded="false" />
+            <element signature="e#264#312#0" expanded="false" />
+            <element signature="e#410#414#0" expanded="false" />
+            <element signature="e#456#492#0" expanded="false" />
+            <element signature="e#539#621#0" expanded="false" />
+            <element signature="e#664#1582#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rst">
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/source.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10169491">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/text2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pylemm/exemples/text3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pylemm/etc/conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3793104">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding>
+            <marker date="1457899203000" expanded="true" signature="0:16" placeholder="{&quot;sep&quot;: &quot;;&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pylemm/lemm3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84317034">
+          <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+          <folding>
+            <element signature="e#48#87#0" expanded="true" />
+            <element signature="e#330#546#0" expanded="true" />
+            <element signature="e#571#629#0" expanded="true" />
+            <element signature="e#669#734#0" expanded="true" />
+            <element signature="e#775#824#0" expanded="true" />
+            <element signature="e#950#983#0" expanded="true" />
+            <element signature="e#1029#1136#0" expanded="true" />
+            <element signature="e#1190#1382#0" expanded="true" />
+            <element signature="e#1419#1449#0" expanded="true" />
+            <element signature="e#1502#2286#0" expanded="true" />
+            <element signature="e#2320#2348#0" expanded="true" />
+            <element signature="e#2367#2754#0" expanded="true" />
+            <element signature="e#2776#2790#0" expanded="true" />
+            <element signature="e#2810#2960#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
