@@ -3,12 +3,9 @@
 
 
 
-from __future__ import unicode_literals
-
 
 from nltk.corpus.reader import wordnet as wn
 from nltk.corpus import wordnet
-from nltk.compat import python_2_unicode_compatible
 from nltk.stem.lancaster import LancasterStemmer
 
 
@@ -20,8 +17,8 @@ def write_file_text(file, words):
     with open(file, "w") as f:
         f.write(words)
 
-@python_2_unicode_compatible
-class WordNetLemmatizer(object):
+
+class WordNetLemmatizer:
     _pos_list = wn.POS_LIST
     def __init__(self):
         self.stemmer = LancasterStemmer()
@@ -42,7 +39,7 @@ class WordNetLemmatizer(object):
 
     def normalize_words(self,  words_list):
         res = []
-        _line = dict.fromkeys(['source', 'lemm', 'stemm', 'tag'])
+        _line = dict.fromkeys(['source', 'lemm', 'stemm', 'tag'], '')
 
         for word in words_list:
             line = _line.copy()
@@ -77,10 +74,10 @@ def main():
     word_lst = get_word_list_of_file('source.txt')
     lmt = WordNetLemmatizer()
     for d in lmt.normalize_words(word_lst):
-        line = '{};{};{};{}\n'.format(d['source'], d['lemm'], d['stemm'], d['tag'])
+        line = '{},{},{},{}\n'.format(d['source'], d['lemm'], d['stemm'], d['tag'])
         res_list.append(line)
     res_str = ''.join(res_list)
-    write_file_text('text3.csv', res_str)
+    write_file_text('text3.xlsx', res_str)
 
 
 if __name__ == '__main__':
