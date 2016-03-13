@@ -1,2 +1,2 @@
-base_project_template
+base_project_template2
 =====================
