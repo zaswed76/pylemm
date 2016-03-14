@@ -119,7 +119,7 @@ def target_file_name(source_file_name, appendix, ext):
 
 def get_repl():
     return raw_input(
-            u'введите имена файлов\n>>>\n'.encode('utf-8'))
+            u'введите имя файла\n>>>\n'.encode('utf-8'))
 
 
 def main():
