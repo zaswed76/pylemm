@@ -1,3 +1,24 @@
 {
-  "sep": ";"
+  "delimiter": ";",
+  "ext_file": ".csv",
+  "target_appendix": "_normal",
+  "empty_filler": "",
+  "tag_names": {
+    "lemmatization": "LEMM",
+    "stemming": "STEMM",
+    "not_changed": "NONE"
+  },
+  "columns_names": {
+    "source": "SOURCE",
+    "lemm": "LEMM",
+    "stemm": "STEMM",
+    "tag": "TAG"
+  },
+  "columns_order": [
+    "source",
+    "lemm",
+    "stemm",
+    "tag"
+  ]
+
 }

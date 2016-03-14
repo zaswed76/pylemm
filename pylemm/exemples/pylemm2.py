@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
+d = {}
+d.keys()
 from nltk import pos_tag
 from nltk.tokenize import word_tokenize
 from nltk.corpus import wordnet
