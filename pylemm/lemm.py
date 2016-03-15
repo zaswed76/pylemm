@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*-
 
 
+
 from __future__ import unicode_literals
+__version__ = '0.1.0'
 
 import argparse
 import csv
@@ -10,11 +12,13 @@ import json
 import os
 import sys
 import re
+import pylemm
 
 from nltk.compat import python_2_unicode_compatible
 from nltk.corpus import wordnet
 from nltk.corpus.reader import wordnet as wn
 from nltk.stem.lancaster import LancasterStemmer
+
 
 
 def get_config(path):
@@ -36,8 +40,8 @@ def arg_parser():
         каждая строка должна содержать одно слово.
     ''')
     parser.add_argument('-i', dest='inter',
-                        help='путь к каталогу')
-
+                        help='интерактивный режим')
+    parser.add_argument('-v', '--version', action='version', version='%(prog)s ' + pylemm.__version__)
     return parser
 
 
