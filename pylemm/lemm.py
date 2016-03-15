@@ -143,7 +143,7 @@ def get_paths(str_path, pat, pat_del):
         return os.listdir(str_path)
     else:
         str_path = pat_del.sub('', str_path)
-        return [x.strip() for x in p.split(str_path)]
+        return [x.strip() for x in pat.split(str_path)]
 
 def main():
     parser = arg_parser()
