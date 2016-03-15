@@ -137,18 +137,21 @@ def target_file_name(source_file_name, appendix, ext):
 def get_repl():
     return raw_input(
             u'имя файла или каталога. < q > - выход\n>>>\n'.encode('utf-8'))
-def get_paths(str_path, pat):
+def get_paths(str_path, pat, pat_del):
     str_path = str_path.strip()
     if os.path.isdir(str_path):
         return os.listdir(str_path)
     else:
-        return [x for x in str_path.split("'") if not pat.search(x)]
+        str_path = pat_del.sub('', str_path)
+        return [x.strip() for x in p.split(str_path)]
 
 def main():
     parser = arg_parser()
     arg = parser.parse_args()
 
-    path_pat = re.compile('^\s*$')
+    path_pat = re.compile(r'\s+?(?=/)')
+    pat_del = re.compile(r'[\\]')
+
     sep = '-' * 40
     config = get_config("etc/conf.json")
     tag_names = config['tag_names']
@@ -166,7 +169,7 @@ def main():
         if repl in ['q', 'Q']:
             print(u'программа завершена')
             sys.exit()
-        source_path = get_paths(repl, path_pat)
+        source_path = get_paths(repl, path_pat, pat_del)
         print('*' * 40)
         n = 0
         for path in source_path:

@@ -2,9 +2,14 @@
 # -*- coding: utf-8 -*-
 
 import re
-p = re.compile('^\s*$')
-
+import os
+p = re.compile(r'\s+?(?=/)')
+pat_del = re.compile(r'[\\]')
 
 r = raw_input('>>')
-lst = [x for x in r.split("'") if not p.search(x)]
-print(lst)
+
+def get_paths(str_path, pat):
+    str_path = pat_del.sub('', str_path)
+    return [x.strip() for x in p.split(str_path)]
+
+print get_paths(r, p)
