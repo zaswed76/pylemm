@@ -139,10 +139,10 @@ def get_repl():
             u'имя файла или каталога. < q > - выход\n>>>\n'.encode('utf-8'))
 def get_paths(str_path, pat, pat_del):
     str_path = str_path.strip()
+    str_path = pat_del.sub('', str_path)
     if os.path.isdir(str_path):
         return os.listdir(str_path)
     else:
-        str_path = pat_del.sub('', str_path)
         return [x.strip() for x in pat.split(str_path)]
 
 def main():
