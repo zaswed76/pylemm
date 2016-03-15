@@ -34,9 +34,12 @@ pylemm
 conf.json::
 
    {
+     # разделитель между словами в csv файле
      "delimiter": ",",
+     # расширение целевого файла
      "ext_file": ".csv",
      "target_appendix": "_normal",
+     # заполнитель для пустых ячеек
      "empty_filler": "",
      "tag_names": {
        "lemmatization": "LEMM",
@@ -49,6 +52,7 @@ conf.json::
        "stemm": "STEMM",
        "tag": "TAG"
      },
+     # порядок столбцов слева направо
      "columns_order": [
        "source",
        "lemm",
