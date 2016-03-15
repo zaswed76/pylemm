@@ -144,14 +144,12 @@ def main():
             print(u'программа завершена')
             sys.exit()
         source_path = get_paths(repl, path_pat)
-        print(source_path, "!!")
-        print('#' * 40)
+        print('*' * 40)
         n = 0
         for path in source_path:
             target_file_path = target_file_name(path,
                                                 target_appendix,
                                                 ext_file)
-            print(path, 'XXX')
             word_lst = get_word_list_of_file(path)
             normalize_words = normalize(word_lst, lemmatizer)
             create_csv_file(normalize_words, target_file_path,
@@ -162,7 +160,7 @@ def main():
         print(
             u'было загружено - {} файла\nбыло создано - {} файла'.format(
                 len(source_path), n))
-        print('#' * 40)
+        print('*' * 40)
 
 
 if __name__ == '__main__':

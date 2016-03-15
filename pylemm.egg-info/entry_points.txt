@@ -1,0 +1,3 @@
+[console_scripts]
+pylemm = pylemm.lemm:main
+
