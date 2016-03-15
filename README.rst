@@ -28,6 +28,7 @@ pylemm
    >>> "full_path1 full_path2"
 
 Описание конфига
+
 путь
 
 для mac os  - **~/Library/Python/2.7/lib/python/site-packages/pylemm/etc/conf.json**
