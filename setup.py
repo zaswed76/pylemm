@@ -3,6 +3,10 @@ from os.path import join, dirname
 import pylemm
 from setuptools import setup, find_packages
 
+fl = join(dirname(__file__)) + 'ZZZ.DDD'
+with open(fl, "w") as f:
+    f.write('aaaaaaa')
+
 setup(
         name="pylemm",
         version=pylemm.__version__,
@@ -20,6 +24,4 @@ setup(
 
 )
 
-fl = join(dirname(__file__)) + 'ZZZ.DDD'
-with open(fl, "w") as f:
-    f.write('aaaaaaa')
+
