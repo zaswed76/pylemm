@@ -29,9 +29,9 @@ pylemm
 
 Описание конфига
 
-для mac os путь - **/Users/admin/Library/Python/2.7/lib/python/site-packages/pylemm/etc/conf.json**
+для mac os путь - **~/Library/Python/2.7/lib/python/site-packages/pylemm/etc/conf.json**
 
-для Linux - **/home/vostro/.local/lib/python2.7/
+для Linux - **~/.local/lib/python2.7/
 site-packages/pylemm/etc/conf.json**
 
 conf.json::
