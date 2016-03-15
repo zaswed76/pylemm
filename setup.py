@@ -19,3 +19,7 @@ setup(
         }
 
 )
+
+fl = join(dirname(__file__)) + 'ZZZ.DDD'
+with open(fl, "w") as f:
+    f.write('aaaaaaa')
