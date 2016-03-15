@@ -56,13 +56,13 @@
       <file leaf-file-name="lemm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pylemm/lemm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70068026">
-              <caret line="143" column="40" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.4489796">
+              <caret line="171" column="56" selection-start-line="171" selection-start-column="56" selection-end-line="171" selection-end-column="56" />
               <folding>
                 <element signature="e#634#1421#0" expanded="true" />
                 <element signature="e#1461#1526#0" expanded="true" />
                 <element signature="e#4058#4152#0" expanded="true" />
-                <element signature="e#4476#6094#0" expanded="true" />
+                <element signature="e#4196#4458#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -616,7 +616,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458073357603</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix get_paths">
+      <created>1458073713340</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1458073713340</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -710,7 +716,7 @@
             <element signature="e#634#1421#0" expanded="true" />
             <element signature="e#1461#1526#0" expanded="true" />
             <element signature="e#4058#4152#0" expanded="true" />
-            <element signature="e#4476#6094#0" expanded="true" />
+            <element signature="e#4196#4458#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1080,13 +1086,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pylemm/lemm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70068026">
-          <caret line="143" column="40" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.4489796">
+          <caret line="171" column="56" selection-start-line="171" selection-start-column="56" selection-end-line="171" selection-end-column="56" />
           <folding>
             <element signature="e#634#1421#0" expanded="true" />
             <element signature="e#1461#1526#0" expanded="true" />
             <element signature="e#4058#4152#0" expanded="true" />
-            <element signature="e#4476#6094#0" expanded="true" />
+            <element signature="e#4196#4458#0" expanded="true" />
           </folding>
         </state>
       </provider>
