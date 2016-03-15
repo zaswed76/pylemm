@@ -15,3 +15,10 @@ pylemm
 
    pip install --upgrade --user git+https://github.com/zaswed76/pylemm.git
 
+
+
+Пример::
+
+   >>> pylemm
+   >>> имя файла или каталога. < q > - выход
+   >>> "full_path1 full_path2"
