@@ -138,6 +138,7 @@ def get_repl():
     return raw_input(
             u'имя файла\n>>>\n'.encode('utf-8'))
 def get_paths(str_path, pat):
+    str_path = str_path.strip()
     if os.path.isdir(str_path):
         return os.listdir(str_path)
     else:
