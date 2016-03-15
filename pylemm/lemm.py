@@ -9,6 +9,7 @@ import csv
 import json
 import os
 import sys
+import re
 
 from nltk.compat import python_2_unicode_compatible
 from nltk.corpus import wordnet
@@ -119,10 +120,12 @@ def target_file_name(source_file_name, appendix, ext):
 
 def get_repl():
     return raw_input(
-            u'введите имя файла\n>>>\n'.encode('utf-8'))
-
+            u'имя файла\n>>>\n'.encode('utf-8'))
+def get_paths(str_path, pat):
+    return [x for x in str_path.split("'") if not pat.search(x)]
 
 def main():
+    path_pat = re.compile('^\s*$')
     sep = '-' * 40
     config = get_config("etc/conf.json")
     tag_names = config['tag_names']
@@ -140,13 +143,15 @@ def main():
         if repl in ['q', 'Q']:
             print(u'программа завершена')
             sys.exit()
-        source_path = repl.split()
+        source_path = get_paths(repl, path_pat)
+        print(source_path, "!!")
         print('#' * 40)
         n = 0
         for path in source_path:
             target_file_path = target_file_name(path,
                                                 target_appendix,
                                                 ext_file)
+            print(path, 'XXX')
             word_lst = get_word_list_of_file(path)
             normalize_words = normalize(word_lst, lemmatizer)
             create_csv_file(normalize_words, target_file_path,

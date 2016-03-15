@@ -1,5 +1,5 @@
 {
-  "delimiter": ";",
+  "delimiter": ",",
   "ext_file": ".csv",
   "target_appendix": "_normal",
   "empty_filler": "",
