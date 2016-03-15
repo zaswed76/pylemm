@@ -141,7 +141,7 @@ def get_paths(str_path, pat, pat_del):
     str_path = str_path.strip()
     str_path = pat_del.sub('', str_path)
     if os.path.isdir(str_path):
-        return os.listdir(str_path)
+        return [os.path.join(str_path, x)for x in os.listdir(str_path) if not '.DS_Store' in x]
     else:
         return [x.strip() for x in pat.split(str_path)]
 
