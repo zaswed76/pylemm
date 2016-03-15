@@ -7,6 +7,7 @@ from __future__ import unicode_literals
 __version__ = '0.1.0'
 
 import argparse
+from argparse import RawTextHelpFormatter
 import csv
 import json
 import os
@@ -29,17 +30,19 @@ def get_config(path):
 
 
 def arg_parser():
+
     parser = argparse.ArgumentParser(
             description='''
-            Утилита создаёт нормализованные формы слов (Лемматизация).\n
-    Использование:\n
-    запуск без аргументов - исползуется интерактивный режим:\n
-    утилита после запуска ожидает аргументы -\n
-    полные имена файлов через пробел или полный путь каталогу содержащему файлы с исходными словами.\n
-    ! ВАЖНО:\n
-        Каждый файл должен быть в кодировке < windows 1251 >;\n
+    Утилита создаёт нормализованные формы слов (Лемматизация).
+    Использование:
+    запуск без аргументов - исползуется интерактивный режим:
+    утилита после запуска ожидает аргументы -
+    полные имена файлов через пробел или полный путь каталогу содержащему файлы с исходными словами.
+    ! ВАЖНО:
+        Каждый файл должен быть в кодировке < windows 1251 >;
         каждая строка должна содержать одно слово.
-    ''')
+    ''',
+    formatter_class=RawTextHelpFormatter)
     parser.add_argument('-i', '--inter',
                         help='интерактивный режим')
     parser.add_argument('-v', '--version', action='version', version='%(prog)s ' + pylemm.__version__)
