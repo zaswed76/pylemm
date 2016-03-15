@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c38a21ba-23bc-4666-a80b-94b4648eda76" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pylemm/lemm.py" afterPath="$PROJECT_DIR$/pylemm/lemm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rst" afterPath="$PROJECT_DIR$/README.rst" />
     </list>
     <ignored path="pylemm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lemm.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lemm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pylemm/lemm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4489796">
+            <state vertical-scroll-proportion="0.0">
               <caret line="171" column="56" selection-start-line="171" selection-start-column="56" selection-end-line="171" selection-end-column="56" />
               <folding>
                 <element signature="e#634#1421#0" expanded="true" />
@@ -64,6 +64,16 @@
                 <element signature="e#4058#4152#0" expanded="true" />
                 <element signature="e#4196#4458#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4489796">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,13 +118,13 @@
         <option value="$PROJECT_DIR$/zdftg.py" />
         <option value="$PROJECT_DIR$/lemm.sh" />
         <option value="$PROJECT_DIR$/pylemm/source.txt" />
-        <option value="$PROJECT_DIR$/README.rst" />
         <option value="$PROJECT_DIR$/pylemm/pylemm.py" />
         <option value="$PROJECT_DIR$/pylemm/lemm3.py" />
         <option value="$PROJECT_DIR$/pylemm/etc/conf.json" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/pylemm/exemples/csv_test.py" />
         <option value="$PROJECT_DIR$/pylemm/lemm.py" />
+        <option value="$PROJECT_DIR$/README.rst" />
       </list>
     </option>
   </component>
@@ -169,56 +179,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pylemm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pylemm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pylemm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pylemm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pylemm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pylemm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pylemm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exemples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pylemm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pylemm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pylemm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -622,7 +582,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458073713340</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fix get_paths">
+      <created>1458073782332</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1458073782333</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -637,7 +603,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="22" width="1865" height="1058" extended-state="6" />
+    <frame x="55" y="22" width="1865" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18964578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -989,13 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pylemm/exemples/aaa.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1086,7 +1045,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pylemm/lemm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4489796">
+        <state vertical-scroll-proportion="0.0">
           <caret line="171" column="56" selection-start-line="171" selection-start-column="56" selection-end-line="171" selection-end-column="56" />
           <folding>
             <element signature="e#634#1421#0" expanded="true" />
@@ -1094,6 +1053,14 @@
             <element signature="e#4058#4152#0" expanded="true" />
             <element signature="e#4196#4458#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4489796">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

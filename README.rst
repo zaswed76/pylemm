@@ -1,12 +1,12 @@
 pylemm
 =====================
 
-**Скрипт приводит к нормальной (словарной) форме список слов английского
-
-языка.**
+**Скрипт приводит к нормальной (словарной) форме список слов английского языка.**
 
 Установка::
+   перед установкой один раз выполнить
+   для mac os
+   echo "PATH=\$PATH:~/Library/Python/2.7/bin" >> ~/.profile
+   Установить:
+   pip install --upgrade --user git+https://github.com/zaswed76/pylemm.git
 
-   sudo -H pip install -U git+https://github.com/zaswed76/pylemm.git
-
-*файл дожен быть в кодироке - 1251*
