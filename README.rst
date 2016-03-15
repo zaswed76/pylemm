@@ -5,5 +5,8 @@ pylemm
 
 языка.**
 
+Установка::
 
-файл дожен быть в кодироке - 1251
+   sudo -H pip install -U git+https://github.com/zaswed76/pylemm.git
+
+*файл дожен быть в кодироке - 1251*
