@@ -137,9 +137,11 @@ def target_file_name(source_file_name, appendix, ext):
 def get_repl():
     return raw_input(
             u'имя файла или каталога. < q > - выход\n>>>\n'.encode('utf-8'))
+
 def get_paths(str_path, pat, pat_del):
     str_path = str_path.strip()
     str_path = pat_del.sub('', str_path)
+
     if os.path.isdir(str_path):
         return [os.path.join(str_path, x)for x in os.listdir(str_path) if not '.DS_Store' in x]
     else:
@@ -150,7 +152,7 @@ def main():
     arg = parser.parse_args()
 
     path_pat = re.compile(r'\s+?(?=/)')
-    pat_del = re.compile(r'[\\]')
+    pat_del = re.compile(r"['\\]")
 
     sep = '-' * 40
     config = get_config("etc/conf.json")
