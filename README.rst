@@ -11,6 +11,10 @@ pylemm
 
    echo "PATH=\$PATH:~/Library/Python/2.7/bin" >> ~/.profile
 
+для Linux::
+
+    echo "PATH=\$PATH:~/.local/bin" >> ~/.bashrc
+
 Установить::
 
    pip install --upgrade --user git+https://github.com/zaswed76/pylemm.git
