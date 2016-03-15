@@ -30,8 +30,9 @@ def get_config(path):
 
 def arg_parser():
     parser = argparse.ArgumentParser(
-            description='''утилита создаёт нормализованные формы слов (Лемматизация)\n
-Использование:\n
+            description='''
+            Утилита создаёт нормализованные формы слов (Лемматизация).\n
+    Использование:\n
     запуск без аргументов - исползуется интерактивный режим:\n
     утилита после запуска ожидает аргументы -\n
     полные имена файлов через пробел или полный путь каталогу содержащему файлы с исходными словами.\n
@@ -39,7 +40,7 @@ def arg_parser():
         Каждый файл должен быть в кодировке < windows 1251 >;\n
         каждая строка должна содержать одно слово.
     ''')
-    parser.add_argument('-i', dest='inter',
+    parser.add_argument('-i', '--inter',
                         help='интерактивный режим')
     parser.add_argument('-v', '--version', action='version', version='%(prog)s ' + pylemm.__version__)
     return parser
