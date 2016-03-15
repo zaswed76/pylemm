@@ -43,8 +43,8 @@ def arg_parser():
         каждая строка должна содержать одно слово.
     ''',
     formatter_class=RawTextHelpFormatter)
-    parser.add_argument('-i', '--inter',
-                        help='интерактивный режим')
+    parser.add_argument('-w', '--word',
+                        help='принимает аргументом одно слово и возвращает нормализованую форму')
     parser.add_argument('-v', '--version', action='version', version='%(prog)s ' + pylemm.__version__)
     return parser
 
@@ -138,48 +138,51 @@ def get_repl():
     return raw_input(
             u'имя файла\n>>>\n'.encode('utf-8'))
 def get_paths(str_path, pat):
-    return [x for x in str_path.split("'") if not pat.search(x)]
+    if os.path.isdir(str_path):
+        return os.listdir(str_path)
+    else:
+        return [x for x in str_path.split("'") if not pat.search(x)]
 
 def main():
     parser = arg_parser()
     arg = parser.parse_args()
-    print(arg)
-    # path_pat = re.compile('^\s*$')
-    # sep = '-' * 40
-    # config = get_config("etc/conf.json")
-    # tag_names = config['tag_names']
-    # columns_names_lst = config['columns_names'].keys()
-    # empty_filler = config['empty_filler']
-    # target_appendix = config['target_appendix']
-    # ext_file = config['ext_file']
-    # columns_order = config['columns_order']
-    # delimiter = config['delimiter'].encode('utf-8')
-    # lemmatizer = WordNetLemmatizer(tag_names, columns_names_lst,
-    #                                empty_filler)
-    #
-    # while True:
-    #     repl = get_repl().decode('utf-8')
-    #     if repl in ['q', 'Q']:
-    #         print(u'программа завершена')
-    #         sys.exit()
-    #     source_path = get_paths(repl, path_pat)
-    #     print('*' * 40)
-    #     n = 0
-    #     for path in source_path:
-    #         target_file_path = target_file_name(path,
-    #                                             target_appendix,
-    #                                             ext_file)
-    #         word_lst = get_word_list_of_file(path)
-    #         normalize_words = normalize(word_lst, lemmatizer)
-    #         create_csv_file(normalize_words, target_file_path,
-    #                         columns_order, delimiter)
-    #         n += 1
-    #         print(u'создан файл - {}'.format(target_file_path))
-    #         print(sep)
-    #     print(
-    #         u'было загружено - {} файла\nбыло создано - {} файла'.format(
-    #             len(source_path), n))
-    #     print('*' * 40)
+
+    path_pat = re.compile('^\s*$')
+    sep = '-' * 40
+    config = get_config("etc/conf.json")
+    tag_names = config['tag_names']
+    columns_names_lst = config['columns_names'].keys()
+    empty_filler = config['empty_filler']
+    target_appendix = config['target_appendix']
+    ext_file = config['ext_file']
+    columns_order = config['columns_order']
+    delimiter = config['delimiter'].encode('utf-8')
+    lemmatizer = WordNetLemmatizer(tag_names, columns_names_lst,
+                                   empty_filler)
+
+    while True:
+        repl = get_repl().decode('utf-8')
+        if repl in ['q', 'Q']:
+            print(u'программа завершена')
+            sys.exit()
+        source_path = get_paths(repl, path_pat)
+        print('*' * 40)
+        n = 0
+        for path in source_path:
+            target_file_path = target_file_name(path,
+                                                target_appendix,
+                                                ext_file)
+            word_lst = get_word_list_of_file(path)
+            normalize_words = normalize(word_lst, lemmatizer)
+            create_csv_file(normalize_words, target_file_path,
+                            columns_order, delimiter)
+            n += 1
+            print(u'создан файл - {}'.format(target_file_path))
+            print(sep)
+        print(
+            u'было загружено - {} файла\nбыло создано - {} файла'.format(
+                len(source_path), n))
+        print('*' * 40)
 
 
 if __name__ == '__main__':
