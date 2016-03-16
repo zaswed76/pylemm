@@ -43,8 +43,6 @@ def arg_parser():
         каждая строка должна содержать одно слово.
     ''',
     formatter_class=RawTextHelpFormatter)
-    parser.add_argument('-w', '--word',
-                        help='принимает аргументом одно слово и возвращает нормализованую форму')
     parser.add_argument('-v', '--version', action='version', version='%(prog)s ' + pylemm.__version__)
     return parser
 
