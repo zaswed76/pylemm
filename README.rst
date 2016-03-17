@@ -7,19 +7,17 @@ pylemm
 
    перед установкой в конец файла прописать строку
 
-для mac os в файл ~/.bash_profile или ~/.profile::
+для mac os в файл ~/.bash_profile или ~/.profile вставляем::
 
    export PATH=~/Library/Python/2.7/bin:$PATH
 
-для Linux в файл: ~/.bashrc::
+для Linux в файл: ~/.bashrc вставляем::
 
    export PATH=~/.local/bin:$PATH
 
 Установить::
 
    pip install --upgrade --user git+https://github.com/zaswed76/pylemm.git
-
-
 
 
 Пример::
@@ -29,6 +27,8 @@ pylemm
    >>> "full_path1 full_path2"
 
    pylemm -h # справка
+
+---------------------------------------------------------------------
 
 Описание конфига:
 
