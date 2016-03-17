@@ -5,15 +5,15 @@ pylemm
 
 Установка:
 
-   перед установкой один раз выполнить
+   перед установкой в конец файла прописать строку
 
-для mac os::
+для mac os в файл ~/.bash_profile или ~/.profile::
 
-   echo "PATH=\$PATH:~/Library/Python/2.7/bin" >> ~/.profile
+   export PATH=~/Library/Python/2.7/bin:$PATH
 
-для Linux::
+для Linux в файл: ~/.bashrc::
 
-    echo "PATH=\$PATH:~/.local/bin" >> ~/.bashrc
+   export PATH=~/.local/bin:$PATH
 
 Установить::
 
